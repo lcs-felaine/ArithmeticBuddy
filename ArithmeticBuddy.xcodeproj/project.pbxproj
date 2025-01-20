@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		66027C5C2D3DE342002E20E0 /* ArithmeticBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66027C582D3DE342002E20E0 /* ArithmeticBuddyApp.swift */; };
+		66027C5D2D3DE342002E20E0 /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66027C5A2D3DE342002E20E0 /* AdditionView.swift */; };
+		66027C5E2D3DE342002E20E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66027C562D3DE342002E20E0 /* Preview Assets.xcassets */; };
+		66027C5F2D3DE342002E20E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66027C592D3DE342002E20E0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		66027C452D3DE32D002E20E0 /* ArithmeticBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArithmeticBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66027C562D3DE342002E20E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66027C582D3DE342002E20E0 /* ArithmeticBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticBuddyApp.swift; sourceTree = "<group>"; };
+		66027C592D3DE342002E20E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66027C5A2D3DE342002E20E0 /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		66027C472D3DE32D002E20E0 /* ArithmeticBuddy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ArithmeticBuddy;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		66027C422D3DE32D002E20E0 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		66027C3C2D3DE32D002E20E0 = {
 			isa = PBXGroup;
 			children = (
-				66027C472D3DE32D002E20E0 /* ArithmeticBuddy */,
+				66027C5B2D3DE342002E20E0 /* ArithmeticBuddy */,
 				66027C462D3DE32D002E20E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				66027C452D3DE32D002E20E0 /* ArithmeticBuddy.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		66027C572D3DE342002E20E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66027C562D3DE342002E20E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66027C5B2D3DE342002E20E0 /* ArithmeticBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				66027C572D3DE342002E20E0 /* Preview Content */,
+				66027C582D3DE342002E20E0 /* ArithmeticBuddyApp.swift */,
+				66027C592D3DE342002E20E0 /* Assets.xcassets */,
+				66027C5A2D3DE342002E20E0 /* AdditionView.swift */,
+			);
+			path = ArithmeticBuddy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				66027C472D3DE32D002E20E0 /* ArithmeticBuddy */,
 			);
 			name = ArithmeticBuddy;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66027C5E2D3DE342002E20E0 /* Preview Assets.xcassets in Resources */,
+				66027C5F2D3DE342002E20E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66027C5C2D3DE342002E20E0 /* ArithmeticBuddyApp.swift in Sources */,
+				66027C5D2D3DE342002E20E0 /* AdditionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
